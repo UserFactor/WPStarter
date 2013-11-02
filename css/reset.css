@@ -1,0 +1,102 @@
+/* GLOBAL RESETS */
+*, *:after, *:before {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video, details, summary {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline:none;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}									
+article, aside, figure, footer, header, hgroup, nav, section, details, summary {display: block;}
+
+object, embed {max-width: 100%;}
+
+html {overflow-y: scroll;}
+
+ul {list-style: none;}
+li{}
+
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+img {max-width: 100%; height: auto;}
+
+blockquote, q {quotes: none;}
+blockquote:before,blockquote:after, q:before, q:after{content: ''; content: none;}
+
+del {text-decoration: line-through;}
+
+abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
+
+table {border-collapse: collapse; border-spacing: 0;font-size: inherit; font: 100%;}
+th {font-weight: bold; vertical-align: bottom;}
+td {font-weight: normal; vertical-align: top;}
+strong, th {font-weight: bold;}
+td, td img {vertical-align: top;} 
+
+hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+
+input, select {vertical-align: middle;}
+
+input[type="radio"] {vertical-align: text-bottom;}
+input[type="checkbox"] {vertical-align: bottom;}
+.ie7 input[type="checkbox"] {vertical-align: baseline;}
+.ie6 input {vertical-align: text-bottom;}
+
+select, input, textarea {font: 99% sans-serif;}
+small {font-size: 85%;}
+
+.clickable, label, input[type=button], input[type=submit], input[type=file], button {cursor: pointer;}
+button, input, select, textarea {margin: 0;}
+button {width: auto; overflow: visible;}
+ 
+.ie7 img {-ms-interpolation-mode: bicubic;}
+.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
+.clearfix:after { clear: both; }  
+.clearfix { zoom: 1; }
+
+/* GLOBAL WORDPRESS */
+.alignleft {float: left;}
+
+.alignright {float: right;}
+
+.aligncenter {display: block;margin-left: auto;margin-right: auto;}
+
+img.alignleft {margin: 5px 20px 5px 0;}
+
+.wp-caption.alignleft {margin: 5px 10px 5px 0;}
+
+img.alignright {margin: 5px 0 5px 20px;}
+
+.wp-caption.alignright {margin: 5px 0 5px 10px;}
+
+img.aligncenter {margin: 5px auto;}
+
+.wp-caption .wp-caption-text, .entry-caption, .gallery-caption {
+	color: #220e10;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 300;
+}
+
+img.wp-smiley, .rsswidget img {
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}

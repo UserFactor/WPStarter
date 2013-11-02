@@ -1,0 +1,74 @@
+/*   
+	Theme Name: WordPress Starter Theme
+	Theme URI: http://wp-design.co.uk/starter
+	Description: An HTML5 starter WordPress Theme
+	Author: Humberto Suastegui
+	Author URI: http://suastex.com
+	Version: 1.0
+	Tags: Starter, Blank, HTML5, CSS3
+*/
+
+/* THEME */
+body {font-size:16px;font-family:"Helvetica", sans-serif;color:#333;}
+select, input, textarea {color: #333;}
+
+a {color: #03f;}
+a:hover {color: #69f;}
+
+.wrapper{max-width:1280px;margin:0 auto;position:relative;}
+
+/* HEADER */
+header{}
+
+/* NAVIGATION */
+nav{}
+.main-navigation{}
+.main-navigation ul.menu{}
+.main-navigation .menu li{}
+.main-navigation .menu li a{}
+
+/* SEARCH FORM */
+#searchform {}
+#s {}
+#searchsubmt {}
+
+/* CONTENT */
+aside{}
+section{}
+article{}
+
+.post {}
+
+.entry-content {}
+.entry-content a {}
+.entry-content a:hover {}
+
+#meta {}
+.postmetadata {}
+
+#sidebar {}
+
+.navgation {}
+.next-posts {}
+.prev-posts {}
+
+/* FOOTER */
+footer{}
+
+/* MEDIA QUERIES */
+@media screen and (max-device-width: 480px) {
+
+}
+
+@media all and (orientation: portrait) {
+	
+}
+
+@media all and (orientation: landscape) {
+	
+}
+
+/* PRINT */
+@media print {
+
+}
