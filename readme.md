@@ -1,6 +1,11 @@
 #  Simple HTML5 WordPress Starter Theme
 
 ## Info
-URL
-Author
+* Project
+* Website
+* Author
+
 ## Description
+
+### HTML5
+### CSS3
