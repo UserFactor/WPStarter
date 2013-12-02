@@ -1,6 +1,10 @@
-$(function() {
-
-});
+jQuery.noConflict();
+(function( $ ) {
+	$(function() {
+		// jQuery code here, using the $
+  	});
+})( jQuery );
+ 
 /*
 $(window).load(function() {
 	
