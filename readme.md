@@ -6,8 +6,8 @@
 * Author: Humberto Suastegui
 
 ## Features
-* semantic HTML5
-* common HTML resets
+* Semantic HTML5
+* Common HTML resets
 * CSS3
 * Two navigation menus: top & sidebar
 * Two widgets locaction: sidebar & footer
