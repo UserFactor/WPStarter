@@ -17,7 +17,7 @@ add_action( 'after_setup_theme', 'wpstarter_setup' );
 /* ENQUEUE STYLES AND SCRIPTS */
 function wpstarter_enqueue_header() {
 	//global $wp_styles;
-	wp_enqueue_script( 'wpstarter-functions', get_template_directory_uri() . '/js/functions.js');
+	wp_enqueue_script( 'wpstarter-functions', get_template_directory_uri() . '/js/functions.js',array('jquery'),'0.1',true);
 	wp_enqueue_style( 'wpstarter-reset', get_template_directory_uri() . '/css/reset.css' );
 	wp_enqueue_style( 'wpstarter-style', get_stylesheet_uri() );	
 }
