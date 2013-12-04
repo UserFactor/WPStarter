@@ -35,6 +35,6 @@
 		</header>
 		
 		<nav class="mainnav" role="navigation">
-			<?php wp_nav_menu( array('menu' => 'primary') ); ?>
+			<?php wp_nav_menu( array('menu' => 'top') ); ?>
 		</nav>
 
