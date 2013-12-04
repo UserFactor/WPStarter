@@ -2,7 +2,7 @@
 
 ## Info
 * Project: WPStarter Theme
-* Website: http://wp-design.co.uk/wpstarter/
+* Website: http://wp-design.co.uk/theme/wpstarter/
 * Author: Humberto Suastegui
 
 ## Features
